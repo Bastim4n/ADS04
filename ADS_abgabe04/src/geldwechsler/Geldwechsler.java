@@ -30,6 +30,8 @@ public class Geldwechsler {
 		münzen.add(m2);
 		münzen.add(m1);
 		
+		
+		
 		for(int i=0;i <= münzen.size();i++) {
 			if ((münzen.get(i)).getGröße() <= this.rückgeld(betrag, summe)){
 				wechselgeld	= münzen.get(i);	//to-do --> wechselgeld deklarieren (ArrayList?)
